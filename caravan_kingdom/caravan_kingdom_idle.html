@@ -4,19 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caravan Kingdom Idle</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="icon" href="/caravan_kingdom/fav_icon.png" type="image/x-icon">
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS for styling -->
+    <style>
+        body {
+            background-image: url('/caravan_kingdom/caravan_kingdom_idle_bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 230px 0;
+			backdrop-filter: blur(2px);
+        }
+        .app-logo {
+            max-width: 512px;
+            margin-bottom: 20px;
+        }
+        .store-icons {
+            max-width: 300px;
+            margin-top: 20px;
+        }
+		@font-face {
+			font-family: 'MonbaitiSDF';
+			src: url('/caravan_kingdom/monbaiti.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+		h1 {
+			font-family: 'MonbaitiSDF', sans-serif;
+			font-size: 4em;
+			text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+		}
+		p {
+			font-size: 2em;
+			text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+		}
+    </style>
 </head>
 <body>
 
-<div class="container mt-5">
-    <h1>Caravan Kingdom Idle</h1>
-    <p>In Caravan Kingdom, master trade routes, and become the ultimate trading tycoon!</p>
-    <a href="https://play.google.com/store/apps/details?id=com.BitLogicGames.CaravanKingdomIdle" class="btn btn-primary" target="_blank">Télécharger sur le Play Store</a>
-</div>
+    <div class="container">
+        <img src="/caravan_kingdom/leaderboard_icon.png" alt="Caravan Kingdom Idle" class="app-logo">
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+        <h1>Caravan Kingdom Idle</h1>
+        <p>In Caravan Kingdom, master trade routes, and become the ultimate trading tycoon!</p>
 
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <a href="https://play.google.com/store/apps/details?id=com.BitLogicGames.CaravanKingdomIdle" target="_blank">
+                    <img src="/google-play-badge.png" alt="Play Store" class="store-icons">
+                </a>
+            </div>
+			<!-- <div class="col-md-2">
+                <a href="https://play.google.com/store/apps/details?id=com.BitLogicGames.CaravanKingdomIdle" target="_blank">
+                    <img src="/app_store_logo.png" alt="App Store" class="store-icons">
+                </a>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
